@@ -11,10 +11,8 @@ class Homepage extends Component {
   render() {
   return (
       <div className="Homepage">
-          <div className="head-wrap">
-            <Test />
+          <Test />
             <img className="bird-wrapper" src={require('./Gang.svg')} />
-          </div>
               <div className="wrapper">
                 <div className="aboutme">
                   <h3><strong>About me!</strong></h3>

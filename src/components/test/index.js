@@ -14,10 +14,10 @@ export default class svgDiv extends Component {
 	      if (element) {
 	        element.append(data);
 	      }
-	      var letterSpeed = 5; //higher = faster
-	      var colorSpeed = 1; //higher = faster
+	      var letterSpeed = 2; //higher = faster
+	      var colorSpeed = .5; //higher = faster
 	      let colors = [
-	        '#e9edef', '#EE7752', '#E73C7E', '#23A6D5', '#23D5AB'
+	        '#e9edef', '#23A6D5', '#23D5AB'
 	      ];
 	      let letters = Snap.selectAll('.letter');
 	      let tl = new TimelineMax({

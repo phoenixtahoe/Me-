@@ -6,9 +6,11 @@
   padding-bottom: 5%;
 }
 
-.name{
-  transform-origin: 50% 50%;
-  transform: scale(0.75);
+.name {
+  position: absolute;
+  margin: 5% auto;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transform: scale(0.55);
 }
 
 .App {
