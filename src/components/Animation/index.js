@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import {Link} from "react-router-dom";
-import Particles from 'react-particles-js';
 import {TweenMax, Power2, TimelineMax, Back} from "gsap/TweenMax";
 import Snap from 'snapsvg-cjs';
-import svg from "./Phoenix.svg";
-import './index.css';
+import svg from "../images/Phoenix.svg";
 
 export default class svgDiv extends Component {
 		svgRender() {

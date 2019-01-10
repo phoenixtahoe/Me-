@@ -6,16 +6,6 @@ h1 {
   font-size: 100px;
 }
 
-svg {
-  margin: 5% auto;
-  position: absolute;
-  left: 0;
-}
-
-.bird-wrapper {
-  margin: 5% auto;
-}
-
 h3 , h2 {
   color: white;
   text-shadow: 2px 2px 5px grey;
@@ -32,7 +22,7 @@ p {
 
 ul {
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   z-index: 100;
   letter-spacing: 2px;
 }
@@ -44,23 +34,13 @@ span {
   color: white;
 }
 
-.fa-github {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 5%;
-}
-
-.fa-linkedin {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 5%;
-}
-
 .bird-wrapper {
   display: -webkit-inline-box;
-  width: 35%;
+  width: 30%;
+}
+
+.fab {
+    margin: 2% auto;
 }
 
 .projects, .aboutme {
@@ -73,4 +53,18 @@ span {
   width: -webkit-fill-available;
   box-shadow: 0 14px 28px rgba(1,0,0,0.25), 0 10px 10px rgba(100,0,0,0.22);
   z-index: 100;
+}
+
+.name {
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transform: scale(0.55);
+}
+
+.js-calendar-graph-svg {
+    font-family: Helvetica, arial;
+    background-color: floralwhite;
+    border-radius: 3px;
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 5px;
 }

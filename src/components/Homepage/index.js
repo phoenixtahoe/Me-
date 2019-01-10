@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import {Link} from "react-router-dom";
-import Particles from 'react-particles-js';
 import './index.css';
-import {TweenMax, Power2, Back} from "gsap/TweenMax";
-import Snap from 'snapsvg-cjs';
-import Test from '../test/';
+import Animation from '../Animation/';
+import Cal from '../Graph/'
 
 class Homepage extends Component {
   render() {
   return (
-      <div className="Homepage">
-          <Test />
-            <img className="bird-wrapper" src={require('./Gang.svg')} />
+      <div className="Homepage">  
+        <img className="bird-wrapper" src={require('../images/Bird.svg')} />
+            <Animation />
               <div className="wrapper">
                 <div className="aboutme">
                   <h3><strong>About me!</strong></h3>
                   <img className="img-fluid img-thumbnail rounded-circle" style={{margin:"2%"}} src="https://media.licdn.com/dms/image/C5603AQHgfTPSnfUwkQ/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=-dUV9LJP6szroSWQSagFMlKLGLdFm7MZCBWSGLNhQII"/>
                   <h3>My name is Phoenix David, </h3>
-                  <h3>and I’m an aspiring computer programming student!</h3>
+                    <a href="https://www.github.com/phoenixtahoe"><i className="fa-5x fab fa-linkedin"/></a>
+                  <h3>Computer programming student!</h3>
                     <ul>
                     I am currently enrolled at a coding University called 42. This extreme, progressive school is located in Fremont, CA and is modeled off a successful sister program in Paris. I began their Piscine (bootcamp) at the age of 17, and I finished in the top 10% of my cohort. Based on my performance, I was offered full time enrollment and housing at the university free of cost. I successfully challenged the California High School Proficiency Exam, so I could take advantage of this once-in-a-lifetime opportunity. I’m proud to say although I was the youngest cadet, I won a Google hackathon during my first month on campus.
                     </ul>
@@ -31,8 +28,13 @@ class Homepage extends Component {
               <div className="wrapper">
                 <div className="projects">
                   <h2><strong>Portfolio!</strong></h2>
+                    <a href="https://www.github.com/phoenixtahoe"><i className="fa-5x fab fa-github"/></a>
+                    <div className="cal-wrap">
+                        <Cal />
+                    </div>
                     <ul>
                     My Github is mostly filled with projects that are mostly written in C, but I learn something new everyday! Im always commiting and posting new projects to my Github!
+                    as a student at 42 Silicon Valley taking courses in the professional application of software engineering. I have experience in C, Bash, Python, JavaScript, PHP, HTML, and CSS. I have excellent communication skills that facilitate an easy collaboration with managers and colleagues. A few selected highlights from my Github are listed below! 
                     </ul>
                 </div>
                   <div>
@@ -56,10 +58,6 @@ class Homepage extends Component {
                     <img className="img-fluid img-thumbnail" src="https://raw.githubusercontent.com/pbondoer/42-wolf3d/master/screens/screen3.png"/>
                     </div>
                 </div>
-                    <div className="contactme">
-                      <a href="https://linkedin.com"><i className="fa-2x fab fa-linkedin"><span>Linkedin</span></i></a>
-                      <a href="https://www.github.com/phoenixtahoe"><i className="fa-2x fab fa-github"><span>Github</span></i></a>
-                  </div>
         </div>
     );
   }

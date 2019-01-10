@@ -1,16 +1,9 @@
 .App-Wrap {
-  background: url('./components/images/retard.svg');
+  background: url('./components/images/BG.svg');
   width: 100%;
   height: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-.name {
-  position: absolute;
-  margin: 5% auto;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-transform: scale(0.55);
 }
 
 .App {
@@ -20,11 +13,11 @@
   text-align: center;
   font-family: 'Annie Use Your Telescope';
   font-weight: 300;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	background: linear-gradient(1deg, #EE7752, #E73C7E, #23A6D5);
+	background-size: 100% 100%;
+	-webkit-animation: Gradient 5s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;
 }
 
 @keyframes Gradient {
