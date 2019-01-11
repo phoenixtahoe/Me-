@@ -29,9 +29,7 @@ class Homepage extends Component {
                 <div className="projects">
                   <h2><strong>Portfolio!</strong></h2>
                     <a href="https://www.github.com/phoenixtahoe"><i className="fa-5x fab fa-github"/></a>
-                    <div className="cal-wrap">
-                        <Cal />
-                    </div>
+                      <Cal />
                     <ul>
                     My Github is mostly filled with projects that are mostly written in C, but I learn something new everyday! Im always commiting and posting new projects to my Github!
                     as a student at 42 Silicon Valley taking courses in the professional application of software engineering. I have experience in C, Bash, Python, JavaScript, PHP, HTML, and CSS. I have excellent communication skills that facilitate an easy collaboration with managers and colleagues. A few selected highlights from my Github are listed below! 

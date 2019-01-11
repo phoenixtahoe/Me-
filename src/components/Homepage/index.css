@@ -61,10 +61,19 @@ span {
 }
 
 .js-calendar-graph-svg {
+    height: 100% !important;
     font-family: Helvetica, arial;
     background-color: floralwhite;
     border-radius: 3px;
     text-align: center;
     max-width: 100%;
     padding-bottom: 5px;
+}
+
+rect {
+  shape-rendering: crispEdges;
+}
+
+rect:hover, .data-date{
+  display: block;
 }
