@@ -1,4 +1,4 @@
-This is my React.js App that I currently have running on a ubunutu VPS!
+This is my React.js App that I currently have running on a ubuntu VPS!
 
 My website can be found here: https://pdavid.net
 Contact: phoenix@pdavid.net
